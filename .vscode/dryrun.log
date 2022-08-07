@@ -1,0 +1,8 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/thg/Documents/github/http_server'
+g++ -W -Wall -Werror -I./ -std=c++11 -c -o main.o main.cpp
+g++ -W -Wall -Werror -I./ -std=c++11 -c -o httpserver.o HttpServer.cpp
+g++ -W -Wall -Werror -I./ -std=c++11 -c -o httpresponse.o HttpSponse.cpp
+g++ -W -Wall -Werror -I./ -std=c++11 main.o httpserver.o httpresponse.o -o my_http
+make: Leaving directory '/home/thg/Documents/github/http_server'
+ 

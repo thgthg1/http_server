@@ -7,5 +7,8 @@ if option=1; then
  git commit -m "test";
  git push;
 else
- echo "git 0";
+ echo "git download";
+ git stash;
+ git pull origin main;
+ git stash pop;
 fi

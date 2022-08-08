@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sun Aug  7 06:29:51 2022
+# Make data base, printed on Sun Aug  7 22:53:39 2022
 
 # Variables
 
@@ -59,7 +59,7 @@ MANDATORY_PATH = /usr/share/gconf/ubuntu.mandatory.path
 # environment
 XDG_DATA_DIRS = /usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/var/lib/snapd/desktop
 # environment
-DBUS_SESSION_BUS_ADDRESS = unix:abstract=/tmp/dbus-m55u2q2WaG
+DBUS_SESSION_BUS_ADDRESS = unix:abstract=/tmp/dbus-QwOZtzIcge
 # makefile (from 'Makefile', line 4)
 OBJS = main.o httpserver.o httpresponse.o
 # environment
@@ -81,6 +81,8 @@ XDG_RUNTIME_DIR = /run/user/1000
 # environment
 LIBRARY_PATH = :/usr/local/protobuf/lib:/usr/local/protobuf/lib
 # environment
+XDG_MENU_PREFIX = gnome-
+# environment
 ELECTRON_RUN_AS_NODE = 1
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
@@ -99,7 +101,7 @@ XDG_SESSION_DESKTOP = ubuntu
 # environment
 SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 3976
+GIO_LAUNCHED_DESKTOP_FILE_PID = 2417
 # automatic
 %F = $(notdir $%)
 # environment
@@ -215,7 +217,7 @@ DEFAULTS_PATH = /usr/share/gconf/ubuntu.default.path
 # default
 MAKEFILES := 
 # environment
-UPSTART_SESSION = unix:abstract=/com/ubuntu/upstart-session/1000/1705
+UPSTART_SESSION = unix:abstract=/com/ubuntu/upstart-session/1000/1724
 # automatic
 <F = $(notdir $<)
 # environment
@@ -237,9 +239,9 @@ CHROME_DESKTOP = code-url-handler.desktop
 # environment
 LANG = C
 # environment
-VSCODE_PID = 3976
+VSCODE_PID = 2417
 # variable set hash-table stats:
-# Load=114/1024=11%, Rehash=0, Collisions=11/144=8%
+# Load=115/1024=11%, Rehash=0, Collisions=11/145=8%
 
 # Pattern-specific Variable Values
 
@@ -275,9 +277,9 @@ HttpSponse.h:
 all: my_http
 #  Command line target.
 #  Implicit rule search has been done.
+ 
 #  File does not exist.
 #  File has been updated.
- 
 #  Successfully updated.
 
 # Not a target:
@@ -362,12 +364,12 @@ my_http: main.o httpserver.o httpresponse.o
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 25 / storage = 241 B / avg = 9 B
-# current buf: size = 8162 B / used = 241 B / count = 25 / avg = 9 B
+# strcache buffers: 1 (0) / strings = 25 / storage = 236 B / avg = 9 B
+# current buf: size = 8162 B / used = 236 B / count = 25 / avg = 9 B
 
 # strcache performance: lookups = 49 / hit rate = 48%
 # hash-table stats:
 # Load=25/8192=0%, Rehash=0, Collisions=1/49=2%
-# Finished Make data base on Sun Aug  7 06:29:51 2022
+# Finished Make data base on Sun Aug  7 22:53:39 2022
 
  
